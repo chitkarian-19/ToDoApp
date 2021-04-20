@@ -1,0 +1,47 @@
+body{
+    margin:0%;
+    font-family:Arial;
+    overflow-x:hidden;
+}
+.grid{
+    display:grid;
+    grid-template-columns:50% 50%;
+}
+.col-1{
+    background-color:lightgray;
+    box-shadow:2px 2px lightgray;
+    margin-top:5%;
+    margin-left:5%;
+    padding-left:5%;
+}
+.col-2{
+    margin-left:10%;
+    margin-top:10%;
+}
+.input{
+    font-size:60px;
+    font-weight:600;
+    color:gray;
+}
+input{
+    border:none;
+    cursor:pointer;
+}
+input:focus{
+    outline:none;
+}
+hr{
+    width:100%;
+}
+button{
+    float:right;
+    background: transparent;
+    border:none;
+    font-size:20px;
+    cursor:pointer;
+}
+input[type="checkbox"]{
+    float:right;
+}
+
+
